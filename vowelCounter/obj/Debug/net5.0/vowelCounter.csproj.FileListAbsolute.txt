@@ -1,0 +1,12 @@
+D:\Kata\vowelCounter\vowelCounter\bin\Debug\net5.0\vowelCounter.deps.json
+D:\Kata\vowelCounter\vowelCounter\bin\Debug\net5.0\vowelCounter.dll
+D:\Kata\vowelCounter\vowelCounter\bin\Debug\net5.0\ref\vowelCounter.dll
+D:\Kata\vowelCounter\vowelCounter\bin\Debug\net5.0\vowelCounter.pdb
+D:\Kata\vowelCounter\vowelCounter\obj\Debug\net5.0\vowelCounter.csproj.AssemblyReference.cache
+D:\Kata\vowelCounter\vowelCounter\obj\Debug\net5.0\vowelCounter.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kata\vowelCounter\vowelCounter\obj\Debug\net5.0\vowelCounter.AssemblyInfoInputs.cache
+D:\Kata\vowelCounter\vowelCounter\obj\Debug\net5.0\vowelCounter.AssemblyInfo.cs
+D:\Kata\vowelCounter\vowelCounter\obj\Debug\net5.0\vowelCounter.csproj.CoreCompileInputs.cache
+D:\Kata\vowelCounter\vowelCounter\obj\Debug\net5.0\vowelCounter.dll
+D:\Kata\vowelCounter\vowelCounter\obj\Debug\net5.0\ref\vowelCounter.dll
+D:\Kata\vowelCounter\vowelCounter\obj\Debug\net5.0\vowelCounter.pdb
