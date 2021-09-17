@@ -10,7 +10,8 @@ Refactor ->
 3.DONE "12345" -> {}
 
 (+)
-P4 "hola@mundo" -> {'a': 1, 'o': 3, 'u' : 1} 
+P4.DONE "hola@mundo" -> {'a': 1, 'o': 3, 'u' : 1} 
+P5.DONE Murcielago x MURCIELAGO = mUrciElagO cuadrado -> {'a' : 5, 'e' : 3, 'i' : 3, 'o' : 4, 'u' : 4}
 
 */
 
@@ -50,11 +51,26 @@ namespace vowelCounter.test
         {
             Dictionary<char, int> rest = new Dictionary<char, int>
             {
-                ['i'] = 1,
+                ['a'] = 1,
                 ['o'] = 3,
                 ['u'] = 1
             };
             Assert.That(() => vowelCounter.Counter("hola@mundo.com"), Is.EquivalentTo(rest));
+        }
+
+        [Test]
+        public void Case_Insensitive()
+        {
+            Dictionary<char, int> rest = new Dictionary<char, int>
+            {
+                ['a'] = 5,
+                ['e'] = 3,
+                ['i'] = 3,
+                ['o'] = 4,
+                ['u'] = 4
+            };
+            Assert.That(() => vowelCounter.Counter("Murcielago x MURCIELAGO = mUrciElagO cuadrado"), 
+            Is.EquivalentTo(rest));
         }
     }
 
